@@ -1,12 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [   
-  './pages/**/*.{ts,tsx}',
-  './components/**/*.{ts,tsx}',
-  './app/**/*.{ts,tsx}',
-  './src/**/*.{ts,tsx}',],
+  './index.html',
+  './src/**/*.{ts,tsx}',
+  '/components/**/*.{ts,tsx}'
+  ],
   theme: {
     colors:{
+      'black': '#020617',
+      'white': '#ffffff',
       'purple':{
         300: '#c4b5fd',
         400: '#a78bfa',

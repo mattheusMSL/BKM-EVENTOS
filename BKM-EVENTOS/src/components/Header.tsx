@@ -1,7 +1,7 @@
 export function Header(){
     return (
         <div> 
-            <header> BKM Eventos </header>
+            <header className="text-purple-600 "> BKM Eventos </header>
         </div>
     )
 }
